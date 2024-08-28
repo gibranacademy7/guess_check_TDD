@@ -1,7 +1,7 @@
 # file: test_days_of_week.py
 
 import pytest
-from days_of_week import get_day_of_week
+from day_of_the_week import get_day_of_week
 
 def test_day_1():
     assert get_day_of_week(1) == "Sunday"
